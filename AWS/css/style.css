@@ -1,0 +1,88 @@
+html {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  background: linear-gradient(rgb(28, 22, 49), rgba(18, 18, 25, 0.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px);
+  font-family: "Comfortaa", cursive;
+  color: #fff;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: points;
+}
+
+section {
+  overflow-y: hidden;
+}
+
+main {
+  background: rgba(217, 214, 228, 0.12);
+  border-radius: 10px;
+  padding: 5px 20px 50px;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto 214px;
+}
+
+h1 {
+  padding: 2%;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.text-container {
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+input {
+  font-size: 1.2rem;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 4px 17px #000000;
+  background: rgb(203, 203, 203);
+  margin-bottom: 15px;
+  margin: 40px;
+  padding: 2%;
+  margin-left: 1%;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(0, 0, 0);
+}
+
+#highscore {
+  padding-left: 20%;
+  padding-right: 22%;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background: #C06C84;
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  height: 45px;
+  padding: 0 30px;
+  margin: 10px;
+  color: #fff;
+  font-family: Lato, Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #ae4b67;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
+
+.choice-text {
+  color: #000000;
+}
